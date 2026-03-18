@@ -1,4 +1,80 @@
 * {
   box-sizing: border-box;
-  
+}
+
+body {
+  margin: auto;
+  max-width: 1300px;
+}
+
+img {
+  width: 200px;
+}
+
+header {
+  grid-area: h;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+a:hover {
+  background-color: lightblue;
+}
+
+nav {
+  grid-area: n;
+}
+
+nav p:hover {
+  background-color: aqua;
+}
+
+nav p {
+  padding: 10px;
+  border-radius: 10%;
+}
+
+#profilkep p {
+  font-size: 14px;
+}
+#profil {
+  gap: 50px;
+  display: grid;
+  grid-template-columns: 200px 600px;
+}
+
+main {
+  max-width: 900px;
+  grid-gap: 5px;
+  display: grid;
+  grid-template-columns: 1fr 25fr;
+  grid-template-areas:
+    "h h"
+    "n ar";
+}
+
+article {
+
+  grid-area: ar;
+}
+
+#kepek {
+  grid-gap: 5px;
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#kepek img {
+  margin: 10px;
+  width: 230px;
+  height: 300px;
 }
