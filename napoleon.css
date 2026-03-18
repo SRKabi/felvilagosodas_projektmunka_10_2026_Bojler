@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(230, 82, 14);
+}
+
+
+main{
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(252, 236, 184);
+    padding: 10px;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul a{
+    text-decoration: none;
+    max-width: 100%;
+    text-align: center;
+}
+
+header{
+    padding:40px 0px 0px 0px;
+}
+
