@@ -5,32 +5,71 @@
 
 body{
     margin: 0px;
-    background-color: rgb(230, 82, 14);
+    background-color:rgb(249, 239, 175);
 }
 
 
 main{
-    max-width: 1000px;
+    max-width: 5000px;
     width: 80%;
     margin: auto;
-    background-color: rgb(252, 236, 184);
-    padding: 10px;
-}
-
-nav ul{
-    display: grid;
-    grid-template-columns: 100px 100px;
-    list-style: none;
+    background-color: rgb(52, 73, 94);
     padding: 0px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: 
+    "as n"
+    "as h"
+    "as ar"
+    "f f";
 }
 
-nav ul a{
+aside{
+    grid-area: as;
+    border-right: 5px solid silver;
+    padding:20px 0px 0px 0px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+nav{
+    grid-area: n;
+    border-bottom: 5px solid silver;
+    text-align: center;
+    padding:20px 0px 20px 0px;
+    display: grid;
+    grid-template-columns: 0fr 1fr 1fr;
+}
+
+nav a img{
+    width: 30%;
     text-decoration: none;
     max-width: 100%;
     text-align: center;
 }
 
 header{
-    padding:40px 0px 0px 0px;
+    grid-area: h;
+    padding:20px 0px 0px 20px;
 }
 
+article{
+    grid-area: ar;
+    padding:20px 0px 0px 20px;
+}
+
+article img{
+    width: 55%;
+}
+
+footer{
+    background-color: silver;
+    grid-area: f;
+    text-align: center;
+    margin: 0px;
+    padding: 7px;
+    color: rgb(78, 78, 78);
+}
