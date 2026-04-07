@@ -17,7 +17,7 @@ main{
     padding: 0px;
     color: white;
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 10fr;
     grid-template-areas: 
     "as n"
     "as h"
@@ -29,10 +29,17 @@ aside{
     grid-area: as;
     border-right: 5px solid silver;
     padding:20px 0px 0px 0px;
+    text-align: center;
 }
 
-.logo img{
-    width: 100%;
+aside img{
+    width: 85%;
+}
+
+aside img:hover{
+    background-color: rgb(74, 101, 128);
+    box-sizing: border-box;
+    border-radius: 25%;
 }
 
 nav{
@@ -52,17 +59,30 @@ nav a img{
 }
 
 header{
+    text-align: center;
     grid-area: h;
-    padding:20px 0px 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    padding: 50px 50px 20px 50px;
+}
+
+header img{
+    box-sizing: border-box;
+    border-radius: 15%;
 }
 
 article{
+    text-align: center;
     grid-area: ar;
     padding:20px 0px 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 article img{
-    width: 55%;
+    width: 95%;
+    box-sizing: border-box;
+    border-radius: 3%;
 }
 
 footer{
