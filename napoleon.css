@@ -116,6 +116,8 @@ footer{
 }
  
 .profilok{
+    color: white;
+    text-decoration: none;
     text-align: center;
     margin: 20px;
     display: grid;
