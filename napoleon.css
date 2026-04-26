@@ -113,7 +113,8 @@ footer{
 
 #profilok-nav{
     grid-area: h;
-    padding: 10%;
+    padding-left: 16%;
+    padding-right: 16%;
     margin: auto;
 }
  
@@ -230,6 +231,12 @@ footer{
         grid-template-columns: 1fr;
     }
 
+
+
+    #profilok-nav{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
 
     #profilok-nav .profilok{
         border: none;
