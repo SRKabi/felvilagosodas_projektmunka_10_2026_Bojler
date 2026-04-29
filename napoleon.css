@@ -202,7 +202,7 @@ footer{
     aside{
         height: max-content;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         position: unset;
         border-right: none;
         border-bottom: 5px solid silver;
